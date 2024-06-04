@@ -14,8 +14,11 @@ let favouriteColor = prompt("Qual è il tuo colore preferito?");
 // crea constante numero 23
 const fixedNumber = 23;
 
+// crea risultato
+let resulte = (`${userName}${userSurname}${favouriteColor}${fixedNumber}`)
+
 // console log risultato
-console.log(`${userName}${userSurname}${favouriteColor}${fixedNumber}`)
+console.log(resulte)
 
 // output risultato
-document.getElementById("pass-gen").innerHTML=`${userName}${userSurname}${favouriteColor}${fixedNumber}`
+document.getElementById("pass-gen").innerHTML= resulte
